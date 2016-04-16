@@ -1,2 +1,2 @@
 # backend_ci_instagram
-Exemple senzill de visualització de fotografies d'Instagram amb Code Igniter
+Ejemplo sencillo de visualización de fotografie¡as de Instagram con Code Igniter

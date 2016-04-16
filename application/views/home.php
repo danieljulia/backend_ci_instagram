@@ -68,14 +68,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Fotos d'Instagram</h1>
+	<h1>Aplicación Fotos Instagram</h1>
 
 	<div id="body">
 	<ul>
 	<li>
-	<a href='<?php echo site_url('fotos/usuari')?>'>Fotos per nom d'usuari</a></li>
+	<a href='<?php echo site_url('fotos/usuari')?>'>Fotos a partir del nombre de usuario</a></li>
 	<li>
-	<a href='<?php echo site_url('fotos/tag')?>'>Fotos per hashtag</a>
+	<a href='<?php echo site_url('fotos/tag')?>'>Fotos por hashtag</a>
 	</li>
 	</ul>
 

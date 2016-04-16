@@ -2,9 +2,9 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
-aqui definim les variables de configuració de la nostra app
+aqui definimos las variables de nuestra aplicación en instagram
 
-cal renombrar aquest arxiu com instagram.php
+es necesario renombrar este archivo como instagram.php
 */
 
 
