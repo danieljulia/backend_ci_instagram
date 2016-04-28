@@ -34,6 +34,10 @@ class Fotos extends CI_Controller {
 		}else{
 			$this->load->model('instagram_model');
 			$user_id=$this->instagram_model->get_user_id($username);
+			if(!$user_id){
+				print "no existe este usuario";
+				return;
+			}
 			$photos=$this->instagram_model->get_photos($user_id,8);
 		}
 		$this->load->view('fotos_user', array('username'=>$username,'fotos'=>$photos) ) ;
